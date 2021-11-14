@@ -8,6 +8,9 @@
 3. Install the dependencies `$ pip3 install -r requirements.txt`
 4. Run ElasticSearch `cd elasticsearch-7.15.2` and then `$ bin/elasticsearch`. It will run on the default `http://localhost:9200`.
 
+Optionally, as this demo uses elastic serch without credentials, it will produce warnings. To disable these add `xpack.security.enabled: false` in `/elasticsearch-7.15.2/config/elasticsearch.yml`
+
+
 ## Testing
 
 Run the Flask app `$ python3 main.py`
