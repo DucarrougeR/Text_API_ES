@@ -1,0 +1,5 @@
+Flask==2.0.2
+elasticsearch==7.15.2
+requests==2.25.1
+nlpcloud==1.0.17
+loguru==0.5.3

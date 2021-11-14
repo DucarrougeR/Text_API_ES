@@ -1,0 +1,5 @@
+.DS_Store
+test/__pycache__
+__pycache__
+.pytest_cache
+elasticsearch-7.15.2/
